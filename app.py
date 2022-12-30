@@ -6,6 +6,6 @@ from cdk_workshop.cdk_workshop_stack import CdkWorkshopStack
 
 
 app = cdk.App()
-CdkWorkshopStack(app, "cdk-workshop")
+CdkWorkshopStack(app, "lg-py-cdk-workshop")
 
 app.synth()
